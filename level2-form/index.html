@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<title>FORM</title>
+</head>
+
+<body>
+   <div class="container">
+       <div class="pix">
+	       <img src="images/image1.jpg"/>
+		   <h2>Lets work together</h2>
+		   <p>We'd love to here from you!Send us a message using the form below.
+		   We'd love to here from you!Send us a message using the form below.
+		   </p>
+	   </div>
+	   <div class="fm">
+	        <form class="form" id="form" >
+                <div class="form-control ">
+                    <label>First name</label>
+                    <input type="text" placeholder="firstname" id="firstname">
+					<small>Error message</small>
+					<label>Last name</label>
+                    <input type="text" placeholder="lastname" id="lastname">
+					<small>Error message</small>
+                
+                    <label>Email</label>
+                    <input type="email" placeholder="hello@urbannaija.com" id="email">
+					<small>Error message</small>
+               
+				    <label>Company</label>
+                    <input type="text" id="companyname">
+					<label>Phone number</label>
+                    <input type="" name="phone" placeholder="+234" id="number">
+                </div>     
+					<p>How can we help you?</p>
+                    <textarea name="comments" cols="50" rows="5" ></textarea>
+					
+					<p>Expected Budget</p>
+				
+					<input type="radio" name="money" value="dollar">$Less than $25k<br>
+					<input type="radio" name="money" value="">$25k-$50k <br>
+					<input type="radio" name="money" value="">$$50kk-$100k <br>
+					<input type="radio" name="money" value="">$100k<sup>+</sup>
+
+
+					<p>How did you here about us?</p>
+                    <textarea name="comments" cols="50" rows="2" ></textarea>
+
+
+				
+				    
+                <button>Submit</button>
+            </form>
+	   </div>
+
+   </div>
+   
+ 	<script src="form.js"</script>
+</body>
+</html>
